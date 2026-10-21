@@ -1,6 +1,6 @@
 function openMinecraftWindow() {
   const windowFeatures = "width=1000,height=700,resizable=yes,scrollbars=yes,status=no,toolbar=no,menubar=no";
-  const gameWindow = window.open("minecraft.html", "PortalWindow", windowFeatures);
+  const gameWindow = window.open("/minecraft", "PortalWindow", windowFeatures);
   
   if (gameWindow) {
     // Wait for the window to render, then apply deep focus hooks
@@ -24,7 +24,7 @@ function openPolyTrackWindow() {
   const windowFeatures = "width=1000,height=700,resizable=yes,scrollbars=yes,status=no,toolbar=no,menubar=no";
   
   // Open the window and save it to a variable
-  const gameWindow = window.open("poly-track.html", "PortalWindow", windowFeatures);
+  const gameWindow = window.open("/poly-track", "PortalWindow", windowFeatures);
   
   // Force the browser to focus on the new window for keyboard inputs
   if (gameWindow) {
@@ -37,7 +37,7 @@ function openAppWindow() {
   const windowFeatures = "width=1000,height=700,resizable=yes,scrollbars=yes,status=no,toolbar=no,menubar=no";
   
   // Open the window and save it to a variable
-  const gameWindow = window.open("app.html", "PortalWindow", windowFeatures);
+  const gameWindow = window.open("/app", "PortalWindow", windowFeatures);
   
   // Force the browser to focus on the new window for keyboard inputs
   if (gameWindow) {
@@ -50,7 +50,7 @@ function openSpotifyWindow() {
   const windowFeatures = "width=1000,height=700,resizable=yes,scrollbars=yes,status=no,toolbar=no,menubar=no";
   
   // Open the window and save it to a variable
-  const gameWindow = window.open("Spotify.html", "PortalWindow", windowFeatures);
+  const gameWindow = window.open("/Spotify", "PortalWindow", windowFeatures);
   
   // Force the browser to focus on the new window for keyboard inputs
   if (gameWindow) {
@@ -63,7 +63,7 @@ function openYoutubeWindow() {
   const windowFeatures = "width=1000,height=700,resizable=yes,scrollbars=yes,status=no,toolbar=no,menubar=no";
   
   // Open the window and save it to a variable
-  const gameWindow = window.open("youtube.html", "PortalWindow", windowFeatures);
+  const gameWindow = window.open("/youtube", "PortalWindow", windowFeatures);
   
   // Force the browser to focus on the new window for keyboard inputs
   if (gameWindow) {
@@ -76,7 +76,7 @@ function openVSCodeWindow() {
   const windowFeatures = "width=1000,height=700,resizable=yes,scrollbars=yes,status=no,toolbar=no,menubar=no";
   
   // Open the window and save it to a variable
-  const gameWindow = window.open("vscode.html", "PortalWindow", windowFeatures);
+  const gameWindow = window.open("/vscode", "PortalWindow", windowFeatures);
   
   // Force the browser to focus on the new window for keyboard inputs
   if (gameWindow) {
@@ -89,7 +89,7 @@ function openCookieClickerWindow() {
   const windowFeatures = "width=1000,height=700,resizable=yes,scrollbars=yes,status=no,toolbar=no,menubar=no";
   
   // Open the window and save it to a variable
-  const gameWindow = window.open("cookie.html", "PortalWindow", windowFeatures);
+  const gameWindow = window.open("/cookie", "PortalWindow", windowFeatures);
   
   // Force the browser to focus on the new window for keyboard inputs
   if (gameWindow) {
@@ -102,7 +102,7 @@ function openFlappyBirdWindow() {
   const windowFeatures = "width=1000,height=700,resizable=yes,scrollbars=yes,status=no,toolbar=no,menubar=no";
   
   // Open the window and save it to a variable
-  const gameWindow = window.open("flappybird.html", "PortalWindow", windowFeatures);
+  const gameWindow = window.open("/flappybird", "PortalWindow", windowFeatures);
   
   // Force the browser to focus on the new window for keyboard inputs
   if (gameWindow) {
@@ -115,7 +115,7 @@ function openWeWindow() {
   const windowFeatures = "width=1000,height=700,resizable=yes,scrollbars=yes,status=no,toolbar=no,menubar=no";
   
   // Open the window and save it to a variable
-  const gameWindow = window.open("we.html", "PortalWindow", windowFeatures);
+  const gameWindow = window.open("/we", "PortalWindow", windowFeatures);
   
   // Force the browser to focus on the new window for keyboard inputs
   if (gameWindow) {
